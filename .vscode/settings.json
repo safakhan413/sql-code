@@ -12,6 +12,19 @@
             "database": "company",
             "username": "root",
             "password": ""
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "database": "giraffe",
+            "name": "mysql2",
+            "username": "root",
+            "password": ""
         }
     ]
 }
