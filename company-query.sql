@@ -11,18 +11,18 @@
 -- ORDER BY salary ASC/DESC;
 
 -- Find all employees ordered by sex then name
-SELECT *
-from employee
-ORDER BY sex, name;
+-- SELECT *
+-- from employee
+-- ORDER BY first_name,sex;
 
 -- Find the first 5 employees in the table
-SELECT *
-from employee
-LIMIT 5;
+-- SELECT *
+-- from employee
+-- LIMIT 5;
 
 -- -- Find the first and last names of all employees
--- SELECT first_name, employee.last_name
--- FROM employee;
+SELECT first_name, employee.last_name
+FROM employee;
 
 -- -- Find the forename and surnames names of all employees
 -- SELECT first_name AS forename, employee.last_name AS surname
