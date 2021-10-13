@@ -29,9 +29,19 @@
 
 -- ------ Play with select ---------------
 
-select * 
-FROM student
-order BY student_id
-limit 2
+-- select * 
+-- FROM student
+-- order BY student_id
+-- limit 2
 -- ORDER BY name,major
+
+-- select * 
+-- FROM student
+-- where major = 'Biochemistry' or major = 'Sociology'
+-- limit 2
+-- <>(not equal), <, >, <=,>=, and, or
+
+select *
+from student
+where student_id < 3
 
