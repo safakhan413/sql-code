@@ -41,7 +41,11 @@
 -- limit 2
 -- <>(not equal), <, >, <=,>=, and, or
 
-select *
-from student
-where student_id < 3
+-- select *
+-- from student
+-- where student_id < 3
+
+-- select *
+-- from student
+-- where name in ('Claire', 'Kate', 'Mike') and student_id > 2
 

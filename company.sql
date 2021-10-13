@@ -1,3 +1,14 @@
+-- CREATE TABLE employee (
+--   emp_id INT PRIMARY KEY,
+--   first_name VARCHAR(40),
+--   last_name VARCHAR(40),
+--   birth_day DATE,
+--   sex VARCHAR(1),
+--   salary INT,
+--   super_id INT,
+--   branch_id INT
+-- );
+
 -- CREATE TABLE branch (
 --   branch_id INT PRIMARY KEY,
 --   branch_name VARCHAR(40),
@@ -108,3 +119,5 @@
 -- INSERT INTO works_with VALUES(107, 405, 26000);
 -- INSERT INTO works_with VALUES(102, 406, 15000);
 -- INSERT INTO works_with VALUES(105, 406, 130000);
+
+select * from branch
